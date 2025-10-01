@@ -1,0 +1,28 @@
+name: icare
+description: Icare mobile-first app for ASHA/PHC role-based dashboards
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.14.0
+  firebase_auth: ^4.16.0
+  firebase_storage: ^11.6.5
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+# Uncomment and add assets/fonts as needed
+# assets:
+#   - assets/images/
+# fonts:
+#   - family: Roboto
+#     fonts:
+#       - asset: assets/fonts/Roboto-Regular.ttf
